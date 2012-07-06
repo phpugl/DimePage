@@ -1,0 +1,17 @@
+site:
+  title: 'Dime - Timetracker'
+  description: 'Dime - Timetracker is based on Symfony2 and Backbone.js and a community project of PHPUGL'
+  author: PHPUGL Team
+  copyright: PHP Usergroup Leipzig
+  keywords: PHP,Leipzig,Usergroup,Best Practice
+  language: en
+  pretty_urls: true
+  posts_fs: shallow
+  posts_per_page: 10
+  date_format: 'd.m.Y'
+smartypants:
+  enable: true
+
+baker:
+  skip_patterns:
+    - /^index.php/
